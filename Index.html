@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Sitio de Dibujos</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Sitio de Dibujos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#enunciado"> Enunciado del trabajo</a></li>
+                    <li><a href="#contacto">Información de Contacto</a></li>
+                    <li><a href="#mantenimiento">Información de Mantenimiento</a></li>
+                    <li class="dropdown">
+                        <a href="#" >Catálogo de Dibujos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#caricaturas">Caricaturas</a></li>
+                            <li><a href="#paisajes">Paisajes</a></li>
+                            <li><a href="#anime">Animé</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contenido de las secciones -->
+        <section id="enunciado" class="section">
+            <div class="container">
+                <h2>ACTIVIDAD 1 - PROYECTO DE SOFTWARE </h2>
+                <a href="https://www.enunciado.com">Ir al enunciado del trabajo</a>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2>Información de Contacto</h2>
+                <h2> Por favor, ingresa tus datos para que podamos contactarte</h2>
+                <!-- Formulario de contacto aquí -->
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="mantenimiento" class="section">
+            <div class="container">
+                <h2>Información de Mantenimiento</h2>
+                <h3>Aquí puedes encontrar información sobre el desarrollador del sitio:</h3>
+                <p>Este sitio fue desarrollado por Julian Rosenfeld, en el marco de la actividad de teoría 1 de la materia Proyecto de Software</p>
+                <p>de la UNLP</p>
+                <p>Fue desarrollado con asistencia de chatGPT 3.5</p>
+
+            </div>
+        </section>
+
+        <section id="caricaturas" class="section">
+            <div class="container">
+                <h2>Caricaturas</h2>
+                <div class="image-gallery">
+                    <!-- Agrega imágenes aquí -->
+                    <img src="imagenes/Caricaturas/dibujo1.png" alt="Caricatura 1">
+                    <img src="imagenes/Caricaturas/dibujo2.png" alt="Caricatura 2">
+                </div>
+            </div>
+        </section>
+
+        <section id="paisajes" class="section">
+            <div class="container">
+                <h2>Paisajes</h2>
+                <div class="image-gallery">
+                    <!-- Agrega imágenes aquí -->
+                    <img src="imagenes/Paisajes/dibujo1.png" alt="Paisaje 1">
+                    <img src="imagenes/Paisajes/dibujo2.png" alt="Paisaje 2">
+                </div>
+            </div>
+        </section>
+
+        <section id="anime" class="section">
+            <div class="container">
+                <h2>Animé</h2>
+                <div class="image-gallery">
+                    <!-- Agrega imágenes aquí -->
+                    <img src="imagenes/Anime/dibujo1.png" alt="Anime 1">
+                    <img src="imagenes/Anime/dibujo2.png" alt="Anime 2">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
